@@ -132,3 +132,16 @@ test_get_list_of_favorites_books_return_empty_list_successful():
 
 проверяет, что метод `get_list_of_favorites_books()` возвращает пустой список избранного
 
+## Тестовое покрытие
+```bash
+coverage run -m pytest tests.py
+coverage report -m  
+
+Name       Stmts   Miss  Cover   Missing
+----------------------------------------
+main.py       30      0   100%
+tests.py      81      0   100%
+----------------------------------------
+TOTAL        111      0   100%
+```
+
